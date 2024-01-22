@@ -5,11 +5,11 @@ body {
 
 h3 {
   color: #ebdbb2;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Atkinson Hyperlegible', monospace;
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Climate Crisis', cursive;
   text-align: center;
   color: #ebdbb2;
   font-size: 90;
@@ -30,6 +30,7 @@ list {
   vertical-align: top;
   align-self: center;
   margin-left: 1em;
+  font-size: 17;
 }
 
 .all:nth-child(1) {
@@ -64,7 +65,7 @@ list {
 .links {
   text-align: center;
   color: #282828;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Atkinson Hyperlegible', monospace;
   text-decoration: none;
   font-weight: bold;
   background-color: #ebdbb2;
