@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Climate+Crisis&display=swap');
+@font-face {
+  font-family: 'Climate Crisis';
+  src: url("/ClimateCrisis.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url("/AtkinsonHyperlegible-Regular.ttf") format('truetype');
+}
+
 
 body {
   background-color: #282828;
   text-align: center;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 h3 {
@@ -14,6 +23,7 @@ h1 {
   text-align: center;
   color: #ebdbb2;
   font-size: 90pt;
+  font-variation-settings: "YEAR" 2050;
 }
 
 a {
@@ -62,7 +72,8 @@ list {
   text-align: center;
   width: 12em;
   font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 700;
+  font-size: 13pt;
+  font-weight: bold;
 }
 
 .google {
@@ -88,9 +99,7 @@ list {
 .links {
   text-align: center;
   color: #282828;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
   text-decoration: none;
-  font-weight: 400;
   background-color: #ebdbb2;
   width: 12em;
 }
