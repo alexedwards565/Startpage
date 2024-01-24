@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Climate+Crisis&display=swap');
 
 body {
   background-color: #282828;
@@ -10,7 +10,7 @@ h3 {
 }
 
 h1 {
-  font-family: 'Bungee', sans-serif;
+  font-family: 'Climate Crisis', 'Atkinson Hyperlegible', sans-serif;
   text-align: center;
   color: #ebdbb2;
   font-size: 90pt;
