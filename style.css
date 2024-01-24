@@ -24,6 +24,22 @@ img{
   max-width: 150px;
 }
 
+span {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+input{
+  background-color: #ebdbb2;
+  border: 0;
+  font-size: 13pt;
+  color: #282828;
+  text-align: center;
+  width: 100%;
+  outline: none;
+}
+
 list {
   text-align: center;
   text-decoration: none;
@@ -34,7 +50,7 @@ list {
   vertical-align: top;
   align-self: center;
   margin-left: 1em;
-  font-size: 17;
+  font-size: 13pt;
 }
 
 .all:nth-child(1) {
@@ -44,6 +60,7 @@ list {
 .title {
   text-align: center;
   width: 12em;
+  font-family: 'Atkinson Hyperlegible', monospace;
 }
 
 .google {
@@ -74,5 +91,13 @@ list {
   font-weight: bold;
   background-color: #ebdbb2;
   width: 12em;
-  padding: 1px 0px 1px 0px;
+}
+
+.search{
+  background-color: #ebdbb2;
+  max-width: 20%;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
