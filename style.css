@@ -1,5 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Atkinson+Hyperlegible);
-@import url(//fonts.googleapis.com/css?family=Climate+Crisis);
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
 
 body {
   background-color: #282828;
@@ -64,6 +64,7 @@ list {
   text-align: center;
   width: 12em;
   font-family: 'Atkinson Hyperlegible', monospace;
+  font-weight: 700;
 }
 
 .google {
@@ -91,7 +92,7 @@ list {
   color: #282828;
   font-family: 'Atkinson Hyperlegible', monospace;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 400;
   background-color: #ebdbb2;
   width: 12em;
 }
