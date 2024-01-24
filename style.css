@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Climate Crisis';
-  src: url("/ClimateCrisis.ttf") format('truetype');
+  src: url("ClimateCrisis.ttf") format('truetype');
 }
 @font-face {
   font-family: 'Atkinson Hyperlegible';
-  src: url("/AtkinsonHyperlegible-Regular.ttf") format('truetype');
+  src: url("AtkinsonHyperlegible-Regular.ttf") format('truetype');
 }
 
 
