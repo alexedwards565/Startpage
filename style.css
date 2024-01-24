@@ -7,6 +7,10 @@
   src: url("AtkinsonHyperlegible-Regular.ttf") format('truetype');
 }
 
+@keyframes font{
+  from {font-variation-settings: "YEAR" 2050;}
+  to {font-variation-settings: "YEAR" 1979;}
+}
 
 body {
   background-color: #282828;
@@ -23,7 +27,8 @@ h1 {
   text-align: center;
   color: #ebdbb2;
   font-size: 90pt;
-  font-variation-settings: "YEAR" 2050;
+  animation-name: font;
+  animation-duration: 4s;
 }
 
 a {
