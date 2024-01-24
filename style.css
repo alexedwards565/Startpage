@@ -6,6 +6,11 @@
   font-family: 'Atkinson Hyperlegible';
   src: url("AtkinsonHyperlegible-Regular.ttf") format('truetype');
 }
+@font-face {
+  font-family: 'Atkinson Hyperlegible Bold';
+  src: url("AtkinsonHyperlegible-Bold.ttf") format('truetype');
+}
+
 
 @keyframes font{
   from {font-variation-settings: "YEAR" 2050;}
@@ -23,7 +28,7 @@ h3 {
 }
 
 h1 {
-  font-family: 'Climate Crisis', 'Atkinson Hyperlegible', sans-serif;
+  font-family: 'Climate Crisis', 'Atkinson Hyperlegible Bold', sans-serif;
   text-align: center;
   color: #ebdbb2;
   font-size: 90pt;
@@ -76,7 +81,7 @@ list {
 .title {
   text-align: center;
   width: 12em;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-family: 'Atkinson Hyperlegible Bold', sans-serif;
   font-size: 13pt;
   font-weight: bold;
 }
@@ -116,4 +121,5 @@ list {
   width: 100%;
   align-items: center;
   justify-content: center;
+  min-width: 12em;
 }
