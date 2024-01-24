@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+img{
+  max-width: 150px;
+}
+
 list {
   text-align: center;
   text-decoration: none;
@@ -70,4 +74,5 @@ list {
   font-weight: bold;
   background-color: #ebdbb2;
   width: 12em;
+  padding: 1px 0px 1px 0px;
 }
