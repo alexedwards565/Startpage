@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Moo+Lah+Lah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Climate+Crisis&display=swap');
 
 body {
   background-color: #282828;
@@ -7,14 +7,13 @@ body {
 
 h3 {
   color: #ebdbb2;
-  font-family: 'Atkinson Hyperlegible', monospace;
 }
 
 h1 {
-  font-family: 'Moo Lah Lah', sans-serif;
+  font-family: 'Climate Crisis', sans-serif;
   text-align: center;
   color: #ebdbb2;
-  font-size: 110pt;
+  font-size: 90pt;
 }
 
 a {
