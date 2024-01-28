@@ -11,12 +11,6 @@
   src: url("AtkinsonHyperlegible-Bold.ttf") format('truetype');
 }
 
-
-@keyframes font{
-  from {font-variation-settings: "YEAR" 2050;}
-  to {font-variation-settings: "YEAR" 1979;}
-}
-
 body {
   background-color: #282828;
   text-align: center;
@@ -32,8 +26,7 @@ h1 {
   text-align: center;
   color: #ebdbb2;
   font-size: 90pt;
-  animation-name: font;
-  animation-duration: 4s;
+  font-variation-settings: "YEAR" 1990;
 }
 
 a {
@@ -42,7 +35,7 @@ a {
 }
 
 img{
-  max-width: 150px;
+  max-width: 100px;
 }
 
 span {
